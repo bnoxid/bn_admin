@@ -1,0 +1,21 @@
+{
+    "name": "bnoxid/bn_admin",
+    "description": "erweiterte Einstellungen",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "eShop"],
+    "homepage": "https://nuenemann.net/",
+    "version": "1.0",
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "bnoxid/bn_admin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "bnoxid\\bn_admin\\": "../../../source/modules/bnoxid/bn_admin"
+        }
+    }
+}
