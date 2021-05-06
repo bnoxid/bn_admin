@@ -8,17 +8,17 @@ $sMetadataVersion = '2.0';
  */
 $aModule = array(
     'id'           => 'bn_admin',
-    'title'        => 'nuenemann | Admin Konfiguration',
+    'title'        => 'bnoxid | Admin Konfiguration',
     'description'  => 'Modul zum Abschalten von Preisalarm etc.',
     'thumbnail'    => '../bn_logo.png',
     'author'       => 'Benedikt Nünemann',
-    'email'        => 'benedikt@nuenemann.de',
-    'url'          => 'http://www.nuenemann.de',	
+    'email'        => 'benedikt@nuenemann.net',
+    'url'          => 'https://www.nuenemann.net',	
     'version'      => '2.0',
     'extend'       => array(
-		\OxidEsales\Eshop\Application\Component\Widget\ArticleDetails::class => \nuenemann\bn_admin\Component\Widget\ArticleDetails::class,
-		// 'oxviewconfig' =>  'nuenemann/bn_admin/extend/bnadmin_main',
-		// 'bnadmin_base' =>  'nuenemann/bn_admin/extend/bnadmin_base',
+		\OxidEsales\Eshop\Application\Component\Widget\ArticleDetails::class => bnoxid\bn_admin\Component\Widget\ArticleDetails::class,
+		// 'oxviewconfig' =>  'bnoxid/bn_admin/extend/bnadmin_main',
+		// 'bnadmin_base' =>  'bnoxid/bn_admin/extend/bnadmin_base',
     ),
 	'blocks'	=>	array(
 			array(	'template' => 'layout/footer.tpl',
