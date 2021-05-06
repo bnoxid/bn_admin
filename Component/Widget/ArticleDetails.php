@@ -16,7 +16,7 @@
  *
  */
 
-// namespace nuenemann\bn_admin\Component\Widget;
+namespace bnoxid\bn_admin\Component\Widget;
 
 class ArticleDetails extends ArticleDetails_parent
 {
