@@ -31,7 +31,6 @@ $aModule = array(
     'settings' => [
 		['group' => 'bnadminSettings', 'name' => 'blpricealarm', 'type' => 'bool',  'value' => false, 'position' => 0],
 		['group' => 'bnadminSettings', 'name' => 'blmerkzettel', 'type' => 'bool',  'value' => false, 'position' => 2],
-		['group' => 'bnadminSettings', 'name' => 'blnewsletter', 'type' => 'bool',  'value' => false, 'position' => 4],
 		['group' => 'bnadminSettings', 'name' => 'blshoplupe', 'type' => 'bool',  'value' => false, 'position' => 5],
 		['group' => 'bnadminSettings', 'name' => 'blpartner', 'type' => 'bool',  'value' => false, 'position' => 6]
     ]
