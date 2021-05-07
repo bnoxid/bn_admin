@@ -17,8 +17,6 @@ $aModule = array(
     'version'      => '2.0',
     'extend'       => array(
 		\OxidEsales\Eshop\Application\Component\Widget\ArticleDetails::class => bnoxid\bn_admin\Component\Widget\ArticleDetails::class,
-		// 'oxviewconfig' =>  'bnoxid/bn_admin/extend/bnadmin_main',
-		// 'bnadmin_base' =>  'bnoxid/bn_admin/extend/bnadmin_base',
     ),
 	'blocks'	=>	array(
 			array(	'template' => 'layout/footer.tpl',
