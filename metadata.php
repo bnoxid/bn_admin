@@ -19,14 +19,6 @@ $aModule = array(
 		\OxidEsales\Eshop\Application\Component\Widget\ArticleDetails::class => bnoxid\bn_admin\Component\Widget\ArticleDetails::class,
     ],
 	'blocks'	=>	[
-		[	'template' => 'layout/footer.tpl',
-			'block'    => 'footer_main',
-			'file'     => 'views/blocks/bnadmin_newsletter.tpl'
-	    	],
-		[	'template' => 'widget/footer/info.tpl',
-			'block'    => 'footer_information',
-			'file'     => 'views/blocks/bnadmin_information.tpl'
-	    	],
 		[	'template' => 'layout/sidebar.tpl',
 			'block'    => 'sidebar_shopluperatings',
 			'file'     => 'views/blocks/bnadmin_shopluperatings.tpl'
@@ -38,7 +30,6 @@ $aModule = array(
 	],
     'settings' => [
 		['group' => 'bnadminSettings', 'name' => 'blpricealarm', 'type' => 'bool',  'value' => false, 'position' => 0],
-		['group' => 'bnadminSettings', 'name' => 'blcomments', 'type' => 'bool',  'value' => false, 'position' => 1],
 		['group' => 'bnadminSettings', 'name' => 'blmerkzettel', 'type' => 'bool',  'value' => false, 'position' => 2],
 		['group' => 'bnadminSettings', 'name' => 'blnewsletter', 'type' => 'bool',  'value' => false, 'position' => 4],
 		['group' => 'bnadminSettings', 'name' => 'blshoplupe', 'type' => 'bool',  'value' => false, 'position' => 5],
