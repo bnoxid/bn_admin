@@ -15,33 +15,33 @@ $aModule = array(
     'email'        => 'benedikt@nuenemann.net',
     'url'          => 'https://www.nuenemann.net',	
     'version'      => '2.0',
-    'extend'       => array(
+    'extend'       => [
 		\OxidEsales\Eshop\Application\Component\Widget\ArticleDetails::class => bnoxid\bn_admin\Component\Widget\ArticleDetails::class,
-    ),
-	'blocks'	=>	array(
-			array(	'template' => 'layout/footer.tpl',
-		    		'block'    => 'footer_main',
-		    		'file'     => 'views/blocks/bnadmin_newsletter.tpl'
-	    	),
-			array(	'template' => 'widget/footer/info.tpl',
-		    		'block'    => 'footer_information',
-		    		'file'     => 'views/blocks/bnadmin_information.tpl'
-	    	),
-			array(	'template' => 'layout/sidebar.tpl',
-		    		'block'    => 'sidebar_shopluperatings',
-		    		'file'     => 'views/blocks/bnadmin_shopluperatings.tpl'
-	    	),
-			array(	'template' => 'layout/sidebar.tpl',
-		    		'block'    => 'sidebar_partners',
-		    		'file'     => 'views/blocks/bnadmin_partners.tpl'
-	    	)	
-	),
-    'settings' => array(
-		array('group' => 'bnadminSettings', 'name' => 'blpricealarm', 'type' => 'bool',  'value' => '', 'position' => 0),
-		array('group' => 'bnadminSettings', 'name' => 'blcomments', 'type' => 'bool',  'value' => '', 'position' => 1),
-		array('group' => 'bnadminSettings', 'name' => 'blmerkzettel', 'type' => 'bool',  'value' => '', 'position' => 2),
-		array('group' => 'bnadminSettings', 'name' => 'blnewsletter', 'type' => 'bool',  'value' => '', 'position' => 4),
-		array('group' => 'bnadminSettings', 'name' => 'blshoplupe', 'type' => 'bool',  'value' => '', 'position' => 5),
-		array('group' => 'bnadminSettings', 'name' => 'blpartner', 'type' => 'bool',  'value' => '', 'position' => 6)
-    )
+    ],
+	'blocks'	=>	[
+		[	'template' => 'layout/footer.tpl',
+			'block'    => 'footer_main',
+			'file'     => 'views/blocks/bnadmin_newsletter.tpl'
+	    	],
+		[	'template' => 'widget/footer/info.tpl',
+			'block'    => 'footer_information',
+			'file'     => 'views/blocks/bnadmin_information.tpl'
+	    	],
+		[	'template' => 'layout/sidebar.tpl',
+			'block'    => 'sidebar_shopluperatings',
+			'file'     => 'views/blocks/bnadmin_shopluperatings.tpl'
+	    	],
+		[	'template' => 'layout/sidebar.tpl',
+			'block'    => 'sidebar_partners',
+			'file'     => 'views/blocks/bnadmin_partners.tpl'
+	    	]	
+	],
+    'settings' => [
+		['group' => 'bnadminSettings', 'name' => 'blpricealarm', 'type' => 'bool',  'value' => false, 'position' => 0],
+		['group' => 'bnadminSettings', 'name' => 'blcomments', 'type' => 'bool',  'value' => false, 'position' => 1],
+		['group' => 'bnadminSettings', 'name' => 'blmerkzettel', 'type' => 'bool',  'value' => false, 'position' => 2],
+		['group' => 'bnadminSettings', 'name' => 'blnewsletter', 'type' => 'bool',  'value' => false, 'position' => 4],
+		['group' => 'bnadminSettings', 'name' => 'blshoplupe', 'type' => 'bool',  'value' => false, 'position' => 5],
+		['group' => 'bnadminSettings', 'name' => 'blpartner', 'type' => 'bool',  'value' => false, 'position' => 6]
+    ]
 );
