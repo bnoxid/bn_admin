@@ -1,5 +1,0 @@
-[{assign var="showNL" value=$oViewConf->myShowNewsletter()}]
-[{if $oViewConf->blNewsletter==false}]	
-	[{$oView->setShowNewsletter(false)}]
-[{/if}]
-[{$smarty.block.parent}]
